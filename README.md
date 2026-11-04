@@ -163,4 +163,4 @@ else{const w=document.createElement("div");w.className=o.length>5?"g":"";const b
 o.forEach((t,k)=>{const b=document.createElement("button");b.className="o";b.textContent="("+L[k]+") "+t;
 b.onclick=()=>{if(done)return;done=true;bs[a].classList.add("ok");if(k!==a)b.classList.add("no");fin(c,k===a,"答案：<b>("+L[a]+")</b>。"+ex)};bs.push(b);if(n<11){const r=document.createElement("div");r.className="rw";b.textContent="("+L[k]+")";const a=document.createElement("a");a.className="w1";a.dataset.k=t;a.textContent=t;r.append(b,a);w.appendChild(r)}else w.appendChild(b)});c.appendChild(w)}
 m.appendChild(c)});if(s.n){const d=document.createElement("details");d.className="nt";d.innerHTML="<summary>📚 難字・難句說明（點開）</summary>"+s.n.map((x,i)=>"<p><i class=\"qn\">第"+NQ[si][i]+"題</i> <b>"+x[0]+"</b>　"+x[1]+"</p>").join("");m.appendChild(d)}});
-</script><footer><p>2026＠Maxine</p></footer> </body></html>
+</script><footer><p>2026＠Maxine</p></footer></body></html>
